@@ -2,12 +2,10 @@ export default function Home() {
   return (
     <div>
       <iframe
-        src="https://player.twitch.tv/?channel=gaules&parent=https://gta-rp-stream-front.vercel.app/"
-        frameBorder="0"
-        allowFullScreen={true}
-        scrolling="no"
-        height="378"
-        width="620"
+        src="https://player.twitch.tv/?channel=gaules&parent=gta-rp-stream-front.vercel.app/"
+        height="350"
+        width="350"
+        allowFullScreen
       ></iframe>
     </div>
   );
